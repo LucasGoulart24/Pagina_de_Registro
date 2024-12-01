@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="registro">
+        <h2>Registre-se</h2>
+        <p>Por favor faça seu registro, para se cadastrar</p>
+        <div class="info">
+            <input type="text" name="nome" placeholder="Nome completo" id="nome" required>
+            <input type="email" name="email" placeholder="Email" id="email" required>
+            <div class="barra">
+                <input type="password" name="senha" placeholder="Senha" id="senha" required>
+                <input type="tel" name="telefone" placeholder="Telefone" id="telefone" required>
+            </div>
+        </div>
+        <label><input type="checkbox">Deseja salvar seus dados?</label>
+        <button onclick="enviar()">Enviar</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
